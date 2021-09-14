@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: #Dedede;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+h1.heading {
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  color: #1C2833;
+  font-size: 50px;
+  text-shadow:-1px -3px 4px #c3c3c3;
+}
+
+.main_div input {
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 15px #d1d0d0;
+  border-radius: 5px;
+}
+
+button.submitBtn {
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 20px;
+  padding: 5px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #283747;
+  background: transparent;
+  border: 2px solid #283747;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button.submitBtn:hover{
+  background: #283747;
+  color: #fff;
+  border-color: #283747;
+}
+
+/* Thank you all guys for watching this video and sourch code on my git hub . my github link in description . If you like this video please like and follow my facebook page and like and share thid video . thanks to all guys  */
